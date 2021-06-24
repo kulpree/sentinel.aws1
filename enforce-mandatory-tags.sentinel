@@ -5,8 +5,10 @@ import "tfplan"
 # where case sensitivity will cause grouping issues
 
 mandatory_tags = [
-  "TTL", 
-  "Owner",
+  "cluster_tag_key", 
+  "consul-servers",
+  "nomad-servers",
+
 ]
 
 # Get all AWS instances contained in all modules being used
