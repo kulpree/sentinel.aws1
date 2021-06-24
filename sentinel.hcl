@@ -12,7 +12,7 @@ module "tfconfig-functions" {
 
 policy "restrict-aws-region" {
   source = "./restrict-aws-region.sentinel"
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "hard-mandatory"
 }
 
 policy "aws-vpcs-must-have-tags-and-enable-dns-hostnames" {
