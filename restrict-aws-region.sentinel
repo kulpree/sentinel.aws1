@@ -12,6 +12,7 @@ region_values = []
 # Allowed Regions
 allowed_regions = [
   "us-west-2",
+  "us-east-1"
 ]
 
 
