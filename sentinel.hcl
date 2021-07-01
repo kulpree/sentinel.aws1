@@ -80,3 +80,8 @@ policy "restrict-iam-policy-statement2" {
   enforcement_level = "advisory"
 }
 
+policy "cost-restriction" {
+  source = "./limit-proposed-monthly-cost.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
